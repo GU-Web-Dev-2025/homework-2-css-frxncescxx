@@ -1,0 +1,90 @@
+/* Name: Francesca Strickland-Anderson
+    Class: CPSC 332 Web Development
+    Assignment: Homework 2 - CSS
+    Last Modified: Sep 21, 2025 */
+
+body{
+    background-color:white;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+    /* EXTRA CREDIT special effect*/
+    background-image: url(https://media.istockphoto.com/id/1142858572/vector/yellow-bananas-on-white-background-seamless-pattern-cartoon-style-for-wallpaper-banner-label.jpg?s=612x612&w=is&k=20&c=DUoi4gbXM-qP0ExZ82Rgy8c64L4Urkf05-c7QzOLB5s=);
+    align-items: center;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+#king {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+#main {
+    display: flex;
+    gap: 20px;
+}
+#left-side {
+    flex: 0 1 30%;
+
+    /* EXTRA CREDIT special effect*/
+    background: radial-gradient(white, lightblue);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+#right-side {
+    flex: 0 1 70%;
+
+    /* EXTRA CREDIT special effect*/
+    background: radial-gradient(white, lightblue);
+    padding: 10px;
+}
+table{
+    border: 1px solid black;
+    text-align: left;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+    border:  2px solid white;
+    padding: 2px;
+}
+.hyperlink {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hyperlink img {
+    width: 150px;
+    border-radius: 25%;
+    border: 1px solid silver;
+    padding: 3px;
+}
+#intro {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#skills ul {
+    list-style-type: square;
+}
+#hobbies ol{
+    list-style-type:upper-roman;
+}
+#desc p {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

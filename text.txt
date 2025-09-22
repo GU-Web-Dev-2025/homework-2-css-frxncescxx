@@ -1,0 +1,149 @@
+<!--Name: Francesca Strickland-Anderson
+    Class: CPSC 332 Web Development
+    Assignment: Homework 2 - CSS
+    Last Modified: Sep 17, 2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="shortcut icon" href="kingbob.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<Section>
+    <body>
+        <h1>Bob the minion</h1>
+
+            <img src="bob.png" alt="king bob" height="150"> 
+
+            <br><br>
+                <strong id="intro">About Me</strong> 
+            <p>
+                Loyal henchman to Gru who is passionate about assisting him in all of his evil plans.
+                <br>
+                My past experience includes working for Scarlet Overkill, Napoleon Bonaparte, and T-Rexes.
+                <br>
+                Additionally, I served as the King of England for a short period, showcasing my leadership skills.
+                <br>
+                Some accomplishments of mine include stealing the moon and the crown jewels. I am
+                <br>
+                well-rounded in many different skill sets, and eager to take on new challenges.
+            </p> 
+
+                <strong id="CoreSkills">Core Skills</strong>
+                <ul>
+                    <li>Leadership</li>
+                    <li>Teamwork</li>
+                    <li>Adaptability</li>
+                    <li>Creative</li>
+                </ul>
+</Section>
+
+<section>
+    <strong>Work Experience</strong>
+    <br><br>
+
+    <table>
+        <tr>
+            <td>200-Present</td>
+            <th>Gru</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li>Assisted in stealing the Moon</li>
+                    <li>Work in teams to execute evil plans</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>10-200</td>
+            <th>Scarlet Overkill</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li>Assisted in stealing London's Crown Jewels</li>
+                    <li>Went on undercover missions that required adapdability and creativity</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>30-31</td>
+            <th>King of England</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li>Ruled England</li>
+                    <li>Demonstrated strong leadership skills as King</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section>
+<table>
+    <caption><strong>Education</strong></caption>
+        <tr>
+            <td>1933-1936</td>
+            <th>Minion School of Science</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <p><em>Major: Bachelor of Banana Science</em></p>
+                <p><em>Minor: Archeology</em></p>
+                <p>GPA: 4.0</p>
+                <p>Honors List all semesters</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section>  
+    <table>
+    <caption><strong>Certifications</strong></caption>
+        <tr>
+            <td>2001</td>
+            <th>Babysitting and Advanced Child Care Certification</th>
+        </tr>
+        <tr>
+            <td>1972</td>
+            <th>Black Belt</th>
+        </tr>
+        <tr>
+            <td>1943</td>
+            <th>Flight Attendant Certificate of Demonstrated Proficiency</th>
+        </tr>
+    </table>
+</section>  
+
+<section>
+    <strong>Interests and Hobbies</strong>
+    <ul>
+        <li>Evil</li>
+        <li>Singing</li>
+        <li>Playing the ukulele</li>
+        <li>Playing with Tim</li>
+        <li>Karate</li>
+    </ul>
+</section>
+
+<section>
+    <a href="karatebob.png" target="_blank">
+        <img src="https://i.ytimg.com/vi/cP2XA_gr8VU/maxresdefault.jpg" 
+            alt="Karate Bob" style="height: 150px;">
+    </a>
+</section>
+
+</body>
+
+</html>
